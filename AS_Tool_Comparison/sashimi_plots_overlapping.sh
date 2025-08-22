@@ -1,3 +1,5 @@
+#!/bin/sh
+
 #event - 22:42601969-42602056 
 #POLDIP3 (SE)
 /mainfs/scratch/ch5g20/RESEARCH_PROJECT/COMPARISON/ggsashimi.py \
