@@ -12,4 +12,4 @@ AS Tools compared:
 
 
 workflow:
-![image alt](https://github.com/crheys/Alternative-Splicing-Tool-Comparison/blob/main/workflow%20without%20validation.jpg?raw=true))
+![image alt](https://github.com/crheys/Alternative-Splicing-Tool-Comparison/blob/main/workflow.jpg?raw=true)
