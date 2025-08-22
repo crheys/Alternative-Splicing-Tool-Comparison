@@ -8,3 +8,8 @@ AS Tools compared:
 - SUPPA2
 - DEXSeq
 - leafcutter
+
+
+
+workflow:
+[workflow including ASD.pdf](https://github.com/user-attachments/files/21941423/workflow.including.ASD.pdf)
