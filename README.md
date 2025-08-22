@@ -3,13 +3,13 @@ Comparative analysis of current leading alternative splicing tools for alternati
 
 AS Tools compared:
 - rMATS
-- MAJIQ
 - whippet
+- MAJIQ
 - SUPPA2
 - DEXSeq
 - leafcutter
 
 
 
-workflow:
+Workflow:
 ![image alt](https://github.com/crheys/Alternative-Splicing-Tool-Comparison/blob/main/workflow.jpg?raw=true)
