@@ -1,0 +1,8 @@
+[info]
+bamdirs=/mainfs/scratch/ch5g20/RESEARCH_PROJECT/COMPARISON/HD/bams
+genome=hg38
+strandness=none
+
+[experiments]
+Con_1=SRR3306823_Aligned.sortedByCoord.out,SRR3306824_Aligned.sortedByCoord.out,SRR3306825_Aligned.sortedByCoord.out,SRR3306826_Aligned.sortedByCoord.out,SRR3306827_Aligned.sortedByCoord.out,SRR3306828_Aligned.sortedByCoord.out,SRR3306829_Aligned.sortedByCoord.out
+Con_2=SRR3306830_Aligned.sortedByCoord.out,SRR3306831_Aligned.sortedByCoord.out,SRR3306832_Aligned.sortedByCoord.out,SRR3306833_Aligned.sortedByCoord.out,SRR3306834_Aligned.sortedByCoord.out,SRR3306835_Aligned.sortedByCoord.out,SRR3306836_Aligned.sortedByCoord.out
