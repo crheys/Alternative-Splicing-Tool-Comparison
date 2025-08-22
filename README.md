@@ -12,4 +12,4 @@ AS Tools compared:
 
 
 workflow:
-[workflow including ASD.pdf](https://github.com/user-attachments/files/21941423/workflow.including.ASD.pdf)
+![image alt](https://github.com/crheys/Alternative-Splicing-Tool-Comparison/blob/9848b50ce94345c32c3cf9d8684e24f50bc46d4b/workflow%20including%20ASD.pdf)
