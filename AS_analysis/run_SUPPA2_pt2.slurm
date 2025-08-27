@@ -49,21 +49,13 @@ for EVENT in A3 A5 AF AL MX RI SE; do
     -o "$DIFFSPLICE_DIR/diffsplice_${EVENT}"
 done
 
-python SUPPA_generate_padj.py "$DIFFSPLICE_DIR/diffsplice_A3.dpsi"
-python SUPPA_generate_padj.py "$DIFFSPLICE_DIR/diffsplice_A5.dpsi"
-python SUPPA_generate_padj.py "$DIFFSPLICE_DIR/diffsplice_AF.dpsi"
-python SUPPA_generate_padj.py "$DIFFSPLICE_DIR/diffsplice_AL.dpsi"
-python SUPPA_generate_padj.py "$DIFFSPLICE_DIR/diffsplice_MX.dpsi"
-python SUPPA_generate_padj.py "$DIFFSPLICE_DIR/diffsplice_RI.dpsi"
-python SUPPA_generate_padj.py "$DIFFSPLICE_DIR/diffsplice_SE.dpsi"
-
 # STEP 6: Filtering significant events
 for EVENT in A3 A5 AF AL MX RI SE; do
   echo "Filtering significant events for $EVENT..."
-  awk 'NR==1 || ($4 <= 0.05 && ($2 >= 0.1 || $2 <= -0.1))' "$DIFFSPLICE_DIR/diffsplice_${EVENT}.dpsi" > "$SIGNIFICANT_DIR_1/significant_${EVENT}_events.dpsi"
+  awk 'NR==1 || ($3 <= 0.05 && ($2 >= 0.1 || $2 <= -0.1))' "$DIFFSPLICE_DIR/diffsplice_${EVENT}.dpsi" > "$SIGNIFICANT_DIR_1/significant_${EVENT}_events.dpsi"
 done
 
 for EVENT in A3 A5 AF AL MX RI SE; do
   echo "Filtering significant events for $EVENT..."
-  awk 'NR==1 || ($4 <= 0.05 && ($2 >= 0.05 || $2 <= -0.05))' "$DIFFSPLICE_DIR/diffsplice_${EVENT}.dpsi" > "$SIGNIFICANT_DIR_2/significant_${EVENT}_events.dpsi"
+  awk 'NR==1 || ($3 <= 0.05 && ($2 >= 0.05 || $2 <= -0.05))' "$DIFFSPLICE_DIR/diffsplice_${EVENT}.dpsi" > "$SIGNIFICANT_DIR_2/significant_${EVENT}_events.dpsi"
 done
